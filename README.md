@@ -34,39 +34,47 @@ A **React-based Note-Taking Application** that allows users to create, edit, del
 ## 📦 Installation & Setup
 
 ### 1️⃣ Clone the Repository
+
 ```sh
-git clone https://github.com/yourusername/note-taking-app.git
+git clone https://github.com/ashwani-sharma-14/Note-Taking-app.git
 cd note-taking-app
 ```
 
 ### 2️⃣ Install Dependencies
+
 ```sh
-npm install
+npm run server-install
+npm run client-install
 ```
 
 ### 3️⃣ Set Up Environment Variables
+
 Create a `.env` file in the root directory and add the following:
+
 ```
 REACT_APP_API_URL=http://localhost:5000
 ```
 
 ### 4️⃣ Run the Backend Server
+
 Navigate to the backend folder and start the server:
+
 ```sh
-npm run server-install
+
 npm run server-start
 ```
 
 ### 5️⃣ Start the Frontend App
+
 Return to the root directory and run:
+
 ```sh
-npm run client-install
+
 npm run client-start
 ```
 
 ## 📷 Screenshots
+
 ![image](https://github.com/user-attachments/assets/2b7cc2dd-b530-4414-b78c-847cbbb9ec06)
 
-
 .
-
