@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "server start": "cd server && nodemon index.js",
-    "client start": "cd client && npm run dev"
+    "server-start": "cd server && nodemon index.js",
+    "server-install": "cd server && npm install",
+    "client-start": "cd client && npm run dev",
+    "client-install": "cd client && npm install"
   },
   "keywords": [],
   "author": "",
